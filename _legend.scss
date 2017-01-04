@@ -1,0 +1,53 @@
+// ==========================================================================
+// CONTROL
+// ==========================================================================
+/*doc
+---
+title: Legend
+name: 1_legend
+category: forms
+---
+
+
+
+```html_example
+<fieldset>
+    <legend>Personal details</legend>
+</fieldset>
+```
+*/
+
+fieldset {
+    border-top: 1px solid palette(grey, light);
+    margin-top: rem-calc(40);
+    padding-top: rem-calc(40);
+    padding-left: rem-calc(20);
+    padding-right: rem-calc(20);
+    @include trim;
+    @include clearfix;
+
+    &:first-of-type {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 0;
+    }
+}
+
+legend {
+    width: 100%;
+    display: block;
+    @include font-scale(xsmall, type-config(headings-family));
+    @include font-family(type-config(headings-family));
+    @include font-weight(bold);
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: rem-calc(12);
+    float: left;
+}
+
+
+.legend--large {
+    @include font-scale(mid, type-config(headings-family));
+    @include font-weight(black);
+    text-transform: none;
+}
