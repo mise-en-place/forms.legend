@@ -1,0 +1,22 @@
+{
+  "name": "mep-forms.legend",
+  "version": "1.0.0",
+  "description": "Base styling for forms legend",
+  "main": "stylesheets/_legend.scss",
+  "eyeglass": {
+    "needs": "^1.0.0",
+    "name": "legend",
+    "exports": "eyeglass-exports.js"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "sass",
+    "mise-en-place"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mise-en-place/forms.legend.git"
+  },
+  "author": "Kind",
+  "license": "MIT"
+}
