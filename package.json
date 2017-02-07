@@ -18,5 +18,13 @@
     "url": "https://github.com/mise-en-place/forms.legend.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.palette": "github:mise-en-place/tools.palette",
+    "mep-tools.rem-calc": "github:mise-en-place/tools.rem-calc",
+    "mep-tools.trim": "github:mise-en-place/tools.trim",
+    "mep-tools.clearfix": "github:mise-en-place/tools.clearfix",
+    "mep-tools.font-scale": "github:mise-en-place/tools.font-scale",
+    "mep-tools.type-config": "github:mise-en-place/tools.type-config"
+  }
 }

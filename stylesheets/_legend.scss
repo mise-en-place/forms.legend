@@ -15,6 +15,13 @@ category: forms
 ```
 */
 
+@import "tool-palette";
+@import "tool-rem-calc";
+@import "tool-trim";
+@import "tool-clearfix";
+@import "tool-type-config";
+@import "tool-font-scale";
+
 fieldset {
     border-top: 1px solid palette(grey, light);
     margin-top: rem-calc(40);
