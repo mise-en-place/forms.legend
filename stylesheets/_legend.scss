@@ -15,12 +15,12 @@ category: forms
 ```
 */
 
-@import "tool-palette";
-@import "tool-rem-calc";
-@import "tool-trim";
-@import "tool-clearfix";
-@import "tool-type-config";
-@import "tool-font-scale";
+@import "~mep-tools.palette";
+@import "~mep-tools.rem-calc";
+@import "~mep-tools.trim";
+@import "~mep-tools.clearfix";
+@import "~mep-tools.type-config";
+@import "~mep-tools.font-scale";
 
 fieldset {
     border-top: 1px solid palette(grey, light);
